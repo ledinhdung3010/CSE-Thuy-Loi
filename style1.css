@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.globalnav{
+        background: #003478;
+        height: 30px;
+        width: 100%;
+        font-size: 16px;
+        position: fixed;
+        z-index: 4;
+
+}
+.container{
+    margin-left: 450px;
+}
+.container .list-top{
+    display: flex;
+    color: #fff;
+    padding: 0 10px;
+}
+.container .list-top li{
+    margin-left: 10px;
+    list-style: none;
+    line-height: 30px;
+}
+.container .list-top .school:hover a{
+    color: #ff7800;
+}
+.globalnav .container a{
+    text-decoration: none;
+    color: #fff;
+}
+.container .list-top .pain{
+    margin-left: 40px;
+}
+.container .list-top .cross{
+    font-weight:bolder;
+}
+.container .list-top .cross-last{
+    margin-left: 20px;
+}
+.container .list-top .icon{
+    margin-top: 3px  
+}
+.container .list-top .search{
+    height: 23px;
+    width: 200px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-left: 40px;
+    display: flex;
+}
+.list-top .search input{
+    height: 23px;
+    width: 220px;
+    border: none;
+    margin-left: 10px;
+}
+.search .fa-magnifying-glass{
+    color: #ddd;
+    line-height: 23px;
+    font-size: 13px;
+    padding: 0 10px;
+}
+.header_logo{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.nav{
+    margin-top: 25px;
+    border-bottom: 1px solid #C7D6E4;
+}
+.nav .nav__list-item{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+}
+.nav .nav__list-item >li{
+    list-style: none;
+    border-left: 1px dotted #808080;
+    position: relative;
+    z-index: 1;
+}
+.nav .nav__list-item >li >a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding:0 5px;
+    line-height: 25px;
+}
+.nav .nav__list-item{
+    display: flex;
+
+}
+.nav .nav__list-item >li:hover> a{
+    color: #fff;
+    background-color: #1a4884;
+    display: block;
+
+}
+.sub-nav__list{
+    padding-top: 10px;
+}
+.nav .sub-nav{
+    
+    position: absolute;
+    background-color: #003478;
+    min-width: 200px;
+    display: none;
+    padding: 10px 19px;
+    
+}
+.nav__list-item .sub-nav li{
+    list-style: none;
+    margin-bottom: 8px; 
+
+}
+.nav__list-item .sub-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.nav__list-item .sub-nav li:hover a{
+    background-color: #D2D1CD;
+    color: #95C5CD;
+    display: block;
+    padding: 0 5px;
+}
+.nav__list-item li:hover .sub-nav{
+    display: block;
+    
+}
+main{
+    margin-top: 30px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.slider{
+    display: flex;
+}
+
+.slider .face-CNTT{
+    margin-left: 15px;
+    position: relative;
+    height: 130px;
+    
+}
+
+.inf-cntt{
+   position: absolute;
+   top: 8px;
+   display: flex;
+    left: 5px;
+}
+
+.inf-cntt .nav-text{
+    margin-left: 5px;
+    color: #000;
+}
+.inf-cntt .nav-text a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-text .text-heading:hover{
+    text-decoration: underline;
+    text-decoration-color: #808080;
+}
+.slider .icon-face{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    background-color:#F5F6F7 ;
+    color: #90949C;
+    border: 1px solid #C2C5CF;
+    padding: 3px ;
+}
+.slider .icon-face .text-desc{
+    margin-left: 3px;
+}
+.list-item{
+    margin-top: 10px;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.list-item .item{
+    display: flex;
+    color: #003478;
+    font-size: 18px;
+    font-weight: bold;
+}
+.list-item a{
+    text-decoration: none;
+    color: #fff;
+}
+.list-item .ContentPane{
+    position: relative;
+}
+.item .img-ContentPane{
+    
+}
+.list-item .item h6{
+    position:absolute;
+    top: 60px;
+    background-color: rgba(0, 25, 25, .5);
+    width: 98%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 0px;
+    display: none;
+    
+
+}
+.list-item .ContentPane:hover h6{
+    display: block;
+    font-size: 100%;
+   
+}
+
+.list-item .inf-branch a{
+    
+}
+.list-item .inf-train{
+
+    margin-left: 10px;
+}
+
+.list-item .inf-train .teacher{
+    margin-top: 3px;
+}
+.list-item .item .text-desc{
+    margin-bottom: 10px;
+}
+.list-item .item .text-desc:hover{
+    color: #1930b0;
+    cursor: pointer;
+}
+.list-item .branch-cntt{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #003478;
+    height: 250px;
+    padding: 30px 0 20px 0;
+}
+.footer .container{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+    
+}
+.footer .nav-item__link{
+    
+    
+}
+.footer .nav-item__link .nav-link{
+    margin-left: 15px;
+    border-right: 1px dashed #fff;
+    padding-right:130px ;
+}
+.footer .nav-item__link .nav-link li{
+    list-style: none;
+    padding-bottom: 5px;
+    
+}
+.footer .nav-item__link .nav-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.footer .nav-item__link .nav-link a:hover{
+    color: #ff7800;
+}
+.footer .address{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+.footer .address .inf-address{
+    color: #fff;
+    margin-left: 20px;
+    font-size:13px ;
+    margin-top: 15px;
+}
